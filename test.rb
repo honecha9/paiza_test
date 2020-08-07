@@ -5,4 +5,6 @@ a.times do
   g = b.to_s(2)
   gb = g.reverse
   puts  gb[qi]
+
+  
 end
