@@ -1,2 +1,4 @@
-s = gets.upcase
-puts s
+n = gets.to_i
+m = gets.to_i
+num = n*n-m
+puts num
