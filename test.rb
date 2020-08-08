@@ -1,6 +1,8 @@
-g = gets.to_i
-if g%2 == 0 then
-  p "even"
-else
-  p "odd"
+num = gets.to_i
+a = 0
+array = []
+while a <= num do
+  array << a
+  a += 1
 end
+puts array.sum
