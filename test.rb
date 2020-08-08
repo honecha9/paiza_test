@@ -1,8 +1,6 @@
-a,b = gets.split.map(&:to_i)
-a.times do
-  i = gets.to_i
-  qi = i-1
-  g = b.to_s(2)
-  gb = g.reverse
-  puts  gb[qi]
+n = gets.to_i
+if n%2 == 0
+  puts "OFF"
+else
+  puts "OFF"
 end
