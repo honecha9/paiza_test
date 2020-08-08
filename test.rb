@@ -1,3 +1,6 @@
-a,b = gets.split.map(&:to_i)
-num = a*6000 + b*4000
-p num
+money = gets.to_i
+if money <= 9999 then
+  puts money+10000
+else
+  puts money
+end
