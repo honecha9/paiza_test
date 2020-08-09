@@ -1,3 +1,4 @@
-moji = gets.chomp
-num = gets.to_i
-puts "#{moji[0..num-1]}"
+n = gets.to_i
+m = gets.to_i
+num = n%m
+puts num
