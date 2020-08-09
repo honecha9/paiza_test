@@ -1,2 +1,3 @@
-a,b = gets.chomp.split
-puts "#{a[0]}.#{b[0]}"
+moji = gets.chomp
+num = gets.to_i
+puts "#{moji[0..num-1]}"
