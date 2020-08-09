@@ -1,6 +1,2 @@
-gold = gets.chomp
-silver = gets.chomp
-bronse = gets.chomp
-puts "Gold #{gold}"
-puts "Silver #{silver}"
-puts "Bronze #{bronse}"
+a,b = gets.chomp.split
+puts "#{a[0]}.#{b[0]}"
