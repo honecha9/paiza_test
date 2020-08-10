@@ -1,2 +1,2 @@
 n = gets.chomp
-puts n.reverse
+puts n.count('y')
