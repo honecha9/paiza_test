@@ -1,4 +1,2 @@
-a = gets.to_i
-b = gets.to_i
-num = 180-(a+b)
-puts num
+n = gets.chomp
+puts n[0..2]
