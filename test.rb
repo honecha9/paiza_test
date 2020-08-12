@@ -1,3 +1,2 @@
 n = gets.to_i
-m = gets.chomp
-puts m*n
+puts 100 - n
