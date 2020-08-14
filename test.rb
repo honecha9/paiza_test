@@ -1,9 +1,4 @@
-num = gets.to_i
-array = []
-num.times do
-  i = gets.to_i
-  array << i
-end
-total = array.sum
-aver = total/num
-puts aver
+a,b,c,d,e,f,g,h,i,j = gets.split.map(&:to_i)
+array = [a,b,c,d,e,f,g,h,i,j]
+num = array.select { |n| n <= 2 }
+puts num.length
