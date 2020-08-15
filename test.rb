@@ -1,16 +1,10 @@
-www = gets.to_i
-pair = []
-all = []
-www.times do
-  a = gets.chomp.split( '')
-  pair << a
+a,b,c = gets.split.map(&:to_i)
+ara = []
+a.times do
+  q = gets
+  ara << q
 end
-pair.each_slice(4) do |a, b, c, d|
-  a1 = a.to_i
-  b1 = b.to_i
-  c1 = c.to_i
-  d1 = d.to_i
-  all << [a1,b1,c1,d1]
-end
-
-p all.size - arr.uniq.size
+all = ara.join
+mojiall = all.delete!("\n")
+v = mojiall.each_char.each_slice(c).map(&:join)
+puts v
