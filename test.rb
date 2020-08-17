@@ -1,10 +1,9 @@
-a,b,c = gets.split.map(&:to_i)
-ara = []
-a.times do
-  q = gets
-  ara << q
+a = gets.chomp
+s = gets.to_i
+if a == "S" then
+  num = 1926+s-1
+  puts num
+else  
+  num = 1989+s -1
+  puts num
 end
-all = ara.join
-mojiall = all.delete!("\n")
-v = mojiall.each_char.each_slice(c).map(&:join)
-puts v
