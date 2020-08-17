@@ -1,7 +1,9 @@
 a = gets.to_i
-if a < 10 then
-  puts "1000"
+q,b,c = gets.chomp.split(" ")
+if a == 1 then
+  puts q
+elsif a == 2
+  puts b 
 else  
-  num = a*150
-  puts num
+  puts c
 end
