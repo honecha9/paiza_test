@@ -1,3 +1,5 @@
 a = gets.to_i
-num = 6*a**2
-puts num
+while a >= 1 do
+  puts a
+  a -=1
+end
