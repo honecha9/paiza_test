@@ -1,7 +1,7 @@
 a = gets.chomp
-num = gets.to_i
-if a == "chocolate" then
-  puts num*2
+b = gets.chomp
+if a.length == b.length then
+  puts "Yes"
 else  
-  puts num*5
+  puts "No"
 end
