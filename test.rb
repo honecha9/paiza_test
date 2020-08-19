@@ -1,6 +1,7 @@
-a = gets.to_i
-if a.between?(40,60) then
-  puts "OK"
+a = gets.chomp
+num = gets.to_i
+if a == "chocolate" then
+  puts num*2
 else  
-  puts "NG"
+  puts num*5
 end
