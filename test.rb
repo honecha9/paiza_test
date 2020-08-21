@@ -1,4 +1,5 @@
-a,b = gets.split.map(&:to_i)
-num1 = a/b
-num = a.modulo(b)
-puts "#{num1} #{num}"
+day = gets.to_i
+wether = gets.chomp
+sun = wether.count('S')
+rain = day - sun
+puts "#{sun} #{rain}"
