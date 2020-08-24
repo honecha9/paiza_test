@@ -1,6 +1,4 @@
-days = []
-7.times do
-  day = gets.chomp
-  days << day
-end
-puts days.count("no") 
+az = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+english = gets.chomp
+num = az.index(english)
+puts num+1
