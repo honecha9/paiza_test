@@ -1,4 +1,7 @@
-az = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-english = gets.chomp
-num = az.index(english)
-puts num+1
+math = []
+5.times do
+  a = gets.to_i
+  math << a
+end
+puts math.max
+puts math.min
