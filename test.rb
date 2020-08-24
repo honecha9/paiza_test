@@ -1,2 +1,6 @@
-moji = gets.chomp
-puts moji.count('A')
+days = []
+7.times do
+  day = gets.chomp
+  days << day
+end
+puts days.count("no") 
