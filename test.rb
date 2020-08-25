@@ -1,8 +1,8 @@
-l,m,n = gets.split.map(&:to_i)
-srca = "A"
-srcb = "B"
-str = srca * l  
-strb = srcb * m 
-stra = srca * n
-
-print"#{str}#{strb}#{stra}"
+mokuhyo = gets.to_i
+result = gets.to_i
+if mokuhyo >= result then
+  puts "Thank you"
+else  
+  num = result - mokuhyo
+  puts num
+end
